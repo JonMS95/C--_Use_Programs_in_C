@@ -11,7 +11,7 @@ exe_main	= Executable_files/main
 shell_dirs	= Shell_files/directories.sh
 shell_test	= Shell_files/test.sh
 
-all: directories clean C_obj CPP_obj exec rm_obj msg test
+all: directories clean C_obj_fib C_obj_swap CPP_obj exec rm_obj test
 
 directories:
 	@./$(shell_dirs)
@@ -26,7 +26,7 @@ CPP_obj:
 	g++ -c $(src_CPP_main) -o $(obj_CPP_main)
 
 exec:
-	g++ $(obj_C_fib) $(obj_C_swap) $(obj_CPP) -o $(exe_main)
+	g++ $(obj_C_fib) $(obj_C_swap) $(obj_CPP_main) -o $(exe_main)
 
 rm_obj:
 	rm -rf Object_files
