@@ -4,4 +4,4 @@ echo
 echo "*******************************"
 echo "Testing 'main' executable file."
 echo "*******************************"
-./Executable_files/main 10 3
+./Executable_files/main
