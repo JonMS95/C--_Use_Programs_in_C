@@ -1,6 +1,6 @@
 #include "swapIntegers.h"
 
-int fib(int n)
+int fibNumb(int n)
 {
     if((n == 0) || (n == 1))
     {
