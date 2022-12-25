@@ -1,6 +1,6 @@
 #include "swapIntegers.h"
 
-int fibNumb(int n)
+int fibNum(int n)
 {
     if((n == 0) || (n == 1))
     {
@@ -11,7 +11,7 @@ int fibNumb(int n)
     int i;
     for(i = 2; i <= n; i++)
     {
-        swapIntegers(fibSeq[0], fibSeq[1]);
+        swapInt(&fibSeq[0], &fibSeq[1]);
         fibSeq[1] = fibSeq[0] + fibSeq[1];
     }
     
