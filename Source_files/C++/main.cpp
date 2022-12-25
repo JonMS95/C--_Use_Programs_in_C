@@ -6,6 +6,7 @@
 extern "C" 
 {
     #include "../C/fibonacciNumber.h"
+    #include "../C/revertIntArray.h"
 }
 
 int main()
@@ -18,6 +19,15 @@ int main()
         fibNumber = fibNum(i);
         std::cout << fibNum(i) << "\n";
         fibSeq[fibNumber];
+    }
+
+    std::cout << "Revert it!\n";
+
+    revertIntArray(&fibSeq[0], fibSeq.size());
+
+    for(int i = 0; i < 10; i++)
+    {
+        std::cout << fibNum(i) << "\n";
     }
 
     return 0;
