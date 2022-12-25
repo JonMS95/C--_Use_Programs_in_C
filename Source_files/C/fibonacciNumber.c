@@ -1,4 +1,4 @@
-#include "swapIntegers.h"
+#include "fibonacciNumber.h"
 
 int fibNum(int n)
 {
