@@ -1,8 +1,8 @@
 #include <iostream>
 
-extern "C"
+extern "C" 
 {
-    #include "fibonacciNumber.h"
+    #include "/home/jon/Desktop/scripts/C++/CPP_Use_Programs_in_C/Source_files/C/fibonacciNumber.h"
 }
 
 int main()
