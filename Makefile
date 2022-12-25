@@ -1,12 +1,6 @@
-src_main 	= Source_files/main.c
-src_mult 	= Source_files/mult.c
-src_div		= Source_files/div.c
+src_C		= Source_files/C/*
 
-obj_mult	= Object_files/mult.o
-obj_div		= Object_files/div.o
-
-so_mult		= Dynamic_libraries/mult.so
-so_div		= Dynamic_libraries/div.so
+obj_All		= Object_files/*
 
 exe_main	= Executable_files/main
 
